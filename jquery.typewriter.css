@@ -1,0 +1,66 @@
+@keyframes typing {
+    from { width: 100% }
+    to { width:0 }
+}
+@-moz-keyframes typing {
+    from { width: 100% }
+    to { width:0 }
+}
+@-webkit-keyframes typing {
+    from { width: 100% }
+    to { width:0 }
+}
+@-o-keyframes typing {
+    from { width: 100% }
+    to { width:0 }
+}
+
+@keyframes blink-caret {
+    from, to { color: transparent }
+    50% { color: black }
+}
+@-moz-keyframes blink-caret {
+    from, to { color: transparent }
+    50% { color: black }
+}
+@-webkit-keyframes blink-caret {
+    from, to { color: transparent }
+    50% { color: black }
+}
+@-o-keyframes blink-caret {
+    from, to { color: transparent }
+    50% { color: black }
+}
+
+.typewriter {
+    position: relative; 
+    float: left;
+    
+    font-family: monospace;
+    white-space:nowrap; /* avoid line wrapping */
+}
+
+.caret {
+    font-weight: inherit;
+    
+    vertical-align: middle;
+    position:absolute;
+    top:0;
+    right:0;
+    width:0;
+    background: white; /* same as background (needs to be solid) */
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+    color: transparent; /* do not show caret by default */
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
