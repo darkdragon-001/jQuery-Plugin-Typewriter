@@ -34,7 +34,6 @@
 
 .typewriter {
     position: relative; 
-    float: left;
     
     font-family: monospace;
     white-space:nowrap; /* avoid line wrapping */
