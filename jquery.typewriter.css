@@ -47,7 +47,7 @@
     top:0;
     right:0;
     width:0;
-    background: white; /* same as background (needs to be solid) */
+    background-color: white; /* same as background (needs to be solid) */
     border: 0;
     margin: 0;
     padding: 0;
